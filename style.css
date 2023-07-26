@@ -221,6 +221,7 @@ i {
   grid-template-columns: 1fr 1fr;
   gap: 20rem;
   padding: 2rem;
+  overflow: hidden;
 }
 
 .about-description {
@@ -311,6 +312,7 @@ i {
   display: flex;
   gap: 2rem;
   color: #ffffff;
+  z-index: 99;
 }
 
 .ws-button {
@@ -318,7 +320,6 @@ i {
   bottom: 1.5rem;
   right: 2rem;
   z-index: 99;
-  cursor: pointer;
 }
 .ws-button img {
   max-width: 8rem;

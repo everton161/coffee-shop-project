@@ -129,6 +129,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 20rem;
     padding: 2rem;
+    overflow: hidden;
 
 }
 
@@ -254,6 +255,7 @@
     display: flex;
     gap: 2rem;
     color: $white-normal;
+    z-index: 99;
 }
 
 .ws-button {
@@ -261,7 +263,6 @@
     bottom: 1.5rem;
     right: 2rem;
     z-index: 99;
-    cursor: pointer;
 
     img {
         max-width: 8rem;
