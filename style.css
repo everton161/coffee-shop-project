@@ -13,6 +13,7 @@ header {
   display: flex;
   align-items: top;
   justify-content: space-between;
+  overflow: hidden;
 }
 
 .header-icons {
@@ -76,6 +77,7 @@ i {
   align-items: center;
   justify-content: center;
   margin-top: -5rem;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 768px) {
